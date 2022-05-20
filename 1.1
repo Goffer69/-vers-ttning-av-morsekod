@@ -1,0 +1,91 @@
+input.onButtonPressed(Button.A, function () {
+    textlista.push(".")
+})
+input.onButtonPressed(Button.AB, function () {
+    if (textlista[0] == "." && textlista[1] == "-" && textlista.length == 2) {
+        basic.showString("A")
+    }
+    if (textlista[0] == "-" && textlista[1] == "." && textlista[2] == "." && textlista[3] == "." && textlista.length == 4) {
+        basic.showString("B")
+    }
+    if (textlista[0] == "-" && textlista[1] == "." && textlista[2] == "-" && textlista[3] == "." && textlista.length == 4) {
+        basic.showString("C")
+    }
+    if (textlista[0] == "-" && textlista[1] == "." && textlista[2] == "." && textlista.length == 3) {
+        basic.showString("D")
+    }
+    if (textlista[0] == "." && textlista.length == 1) {
+        basic.showString("E")
+    }
+    if (textlista[0] == "." && textlista[1] == "." && textlista[2] == "-" && textlista[3] == "." && textlista.length == 4) {
+        basic.showString("F")
+    }
+    if (textlista[0] == "-" && textlista[1] == "-" && textlista[2] == "." && textlista.length == 3) {
+        basic.showString("G")
+    }
+    if (textlista[0] == "." && textlista[1] == "." && textlista[2] == "." && textlista[3] == ".") {
+        basic.showString("H")
+    }
+    if (textlista[0] == "." && textlista[1] == "." && textlista.length == 2) {
+        basic.showString("I")
+    }
+    if (textlista[0] == "." && textlista[1] == "-" && textlista[2] == "-" && textlista[3] == "-") {
+        basic.showString("J")
+    }
+    if (textlista[0] == "-" && textlista[1] == "." && textlista[2] == "-" && textlista.length == 3) {
+        basic.showString("K")
+    }
+    if (textlista[0] == "." && textlista[1] == "-" && textlista[2] == "." && textlista[3] == ".") {
+        basic.showString("L")
+    }
+    if (textlista[0] == "-" && textlista[1] == "-" && textlista.length == 2) {
+        basic.showString("M")
+    }
+    if (textlista[0] == "-" && textlista[1] == "." && textlista.length == 2) {
+        basic.showString("N")
+    }
+    if (textlista[0] == "-" && textlista[1] == "-" && textlista[2] == "-") {
+        basic.showString("O")
+    }
+    if (textlista[0] == "." && textlista[1] == "-" && textlista[2] == "-" && textlista[3] == ".") {
+        basic.showString("P")
+    }
+    if (textlista[0] == "-" && textlista[1] == "-" && textlista[2] == "." && textlista[3] == "-") {
+        basic.showString("Q")
+    }
+    if (textlista[0] == "." && textlista[1] == "-" && textlista[2] == "." && textlista.length == 3) {
+        basic.showString("R")
+    }
+    if (textlista[0] == "." && textlista[1] == "." && textlista[2] == "." && textlista.length == 3) {
+        basic.showString("S")
+    }
+    if (textlista[0] == "-" && textlista.length == 1) {
+        basic.showString("T")
+    }
+    if (textlista[0] == "." && textlista[1] == "." && textlista[2] == "-" && textlista.length == 3) {
+        basic.showString("U")
+    }
+    if (textlista[0] == "." && textlista[1] == "." && textlista[2] == "." && textlista[3] == "-") {
+        basic.showString("V")
+    }
+    if (textlista[0] == "." && textlista[1] == "-" && textlista[2] == "-" && textlista.length == 3) {
+        basic.showString("W")
+    }
+    if (textlista[0] == "-" && textlista[1] == "." && textlista[2] == "." && textlista[3] == "-") {
+        basic.showString("X")
+    }
+    if (textlista[0] == "-" && textlista[1] == "." && textlista[2] == "-" && textlista[3] == "-") {
+        basic.showString("Y")
+    }
+    if (textlista[0] == "-" && textlista[1] == "-" && textlista[2] == "." && textlista[3] == ".") {
+        basic.showString("Z")
+    }
+    basic.pause(2000)
+    basic.clearScreen()
+    textlista = []
+})
+input.onButtonPressed(Button.B, function () {
+    textlista.push("-")
+})
+let textlista: string[] = []
+textlista = []
